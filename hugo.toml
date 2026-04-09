@@ -1,0 +1,28 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'zh-cn'
+title = '玉子的自留団地'
+theme = 'PaperMod'
+
+[params]
+  author = "YukTsz 玉子"
+  description = "一個个人输出地"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "欢迎来到玉子的小花园"
+  Content = "这里会放公众号旧文迁移、平台吐槽、阅读笔记、随笔思考……欢迎你拜访。"
+
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 10
