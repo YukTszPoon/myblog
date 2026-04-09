@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://myblog-8n9.pages.dev/'
 languageCode = 'zh-cn'
 title = '玉子的自留団地'
 theme = 'PaperMod'
